@@ -12,10 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.css"
+    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Nucamp: a better way to camp</title>
@@ -44,13 +51,25 @@
         <div class="collapse navbar-collapse" id="nucampNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">home</a>
+              <a class="nav-link" href="#"
+                ><i class="fa fa-home fa-lg"></i> home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutUs.html">About</a>
+              <a class="nav-link" href="aboutUs.html"
+                ><i class="fa fa-info fa-lg"></i>About</a
+              >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-list fa-lg"></i>Sites</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html"
+                ><i class="fa fa-address-card fa-lg"></i>Contact</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -102,19 +121,43 @@
               <li><a href="#">Home</a></li>
               <li><a href="aboutUs.html">About</a></li>
               <li><a href="#">Sites</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="contactus.html">Contact</a></li>
             </ul>
           </div>
           <div class="col-6 col-sm-5 text-center">
             <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-youtube"
+              href="http://youtube.com/"
+              ><i class="fa fa-youtube"></i
+            ></a>
           </div>
           <div class="col-sm-4 text-center">
-            Tel: 1-206-555-1234<br />
-            Email: campsites@nucamp.co
+            <a href="tel:+12065551234" role="button" class="btn btn-link"
+              ><i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234</a
+            ><br />
+            <a
+              href="mailto:campsite@nucamp.com"
+              class="btn btn-link"
+              role="button"
+              ><i class="fa fa-envelope fa-lg text-primary"></i>
+              campsites@nucamp.com</a
+            >
           </div>
         </div>
       </div>
