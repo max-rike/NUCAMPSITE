@@ -7,56 +7,44 @@ h2,
 h3 {
   font-family: "Lobster", cursive;
 }
-
 h2 {
-  color: #3046c5;
+  color: rgb(86, 31, 148);
 }
-
 header h2 {
-  color: #cec8ff;
+  color: rgb(132, 187, 238);
 }
-
 site-footer {
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
 }
-
 .jumbotron {
   margin: 0;
   padding: 30px;
   color: white;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
 }
-
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
 }
-
 .navbar {
   background-color: #901cad;
 }
-
 .tab-content {
-  border: 1px solid white;
+  border: 1px solid #ddd;
   border-top: none;
   padding: 10px;
 }
-
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
-
 .carousel {
   border: solid #5637dd;
 }
-
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 100;
 }
-
-/*# sourceMappingURL=styles.css.map */
